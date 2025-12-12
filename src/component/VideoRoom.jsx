@@ -29,7 +29,7 @@ const serverSecret = import.meta.env.VITE_SERVER_SECRET;
       sharedLinks: [
         {
           name: 'Copy Link',
-          url: `http://localhost:5173/room/${roomID}`,
+          url: `https://video-conference-teal.vercel.app/room/${roomID}`,
         },
       ],
       scenario: {
